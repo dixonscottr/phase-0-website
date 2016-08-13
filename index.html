@@ -25,16 +25,47 @@
   <li>Kicking off the the "Great Heisei-Era Municipal Mergers" in 1999 by merging 4 towns into 1 city</li>
 </ul>
 
-<h3>Click below for more information:</h3>
+<h3>Click below to learn more about Sasayama:</h3>
 
 <nav>
-  <a href="food.html">Food</a>
-  <a href="culture.html">Culture</a>
+  <ul>
+    <li><a href="food.html">Food</a></li>
+    <li><a href="culture.html">Culture</a></li>
+  </ul>
 </nav>
+<hr />
 
-<form>
-  
+<form action="form-review.html" method="post">
+<h3>Please fill out this form with your comments about this page!</h3>
+  <fieldset>
+    <legend>Comment form</legend>
+    <label>Name:</label><br />
+    <input type="text" name="full-name">
+    <p>Where are you from?</p>
+    <select name="region">
+      <option selected="selected">Select a region</option>
+      <option value="n-america">North America</option>
+      <option value="s-america">South America</option>
+      <option value="Asia">Asia</option>
+      <option value="Europe">Europe</option>
+      <option value="Africa">Africa</option>
+      <option value="Oceania">Oceania</option>
+      <option value="somewhere-else">Somewhere else</option>
+    </select>
+    <p>Have you been to Japan before?</p>
+    <input type="radio" name="japan-trip" value="yes" />Yes
+    <input type="radio" name="japan-trip" value="no-but-wanting" />No, but I want to!
+    <input type="radio" name="japan-trip" value="no-and-no-interest" />Nope, no interest :(
+    <p>What did you think about this page?</p>
+    <textarea name="comments" cols="50" rows="5" placeholder="Comments go here!"></textarea>
+  </fieldset>
+  <button type="submit">Submit</button>
 </form>
-
+<hr />
+<h3>For more information:</h3>
+<p>Visit the <a href="http://tourism.sasayama.jp/english/" target="_blank">official tourism website</a> (opens in a new window) by the city of Sasayama for a closer look at Sasayama as well as lots of CSS styling that is much prettier to look at. The navigation bar in particular uses CSS to make it uniform across the pages while changing images in the bar itself. The "font size" buttons seem to switch to Japanese when you click on them, but other than that the page works well.</p>
+<hr />
+<br />
+<footer>Website and photos by Scott Dixon, <a href="mailto:dixon.scottr@gmail.com">email me</a> with any questions</footer>
 </body>
 </html>
