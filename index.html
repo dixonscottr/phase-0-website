@@ -32,8 +32,29 @@
   <a href="culture.html">Culture</a>
 </nav>
 
-<form>
-  
+<form action="form-review.html" method="post">
+<h3>Please fill out this form with your comments about this page!</h3>
+  <fieldset>
+    <label>Name:</label>
+    <input type="text" name="full-name">
+    <p>Where are you from?</p>
+    <select name="region">
+      <option value="n-america">North America</option>
+      <option value="s-america">South America</option>
+      <option value="Asia">Asia</option>
+      <option value="Europe">Europe</option>
+      <option value="Africa">Africa</option>
+      <option value="Oceania">Oceania</option>
+      <option value="somewhere-else">Somewhere else</option>
+    </select>
+    <p>Have you been to Japan before?</p>
+    <input type="radio" name="japan-trip" value="yes" />Yes
+    <input type="radio" name="japan-trip" value="no-but-wanting" />No, but I want to!
+    <input type="radio" name="japan-trip" value="no-and-no-interest" />Nope, no interest :(
+    <p>What did you think about this page?</p>
+    <textarea name="comments" cols="50" rows="5" placeholder="Comments go here!"></textarea>
+  </fieldset>
+  <button type="submit">Submit</button>
 </form>
 
 </body>
