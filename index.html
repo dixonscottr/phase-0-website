@@ -28,17 +28,22 @@
 <h3>Click below for more information:</h3>
 
 <nav>
-  <a href="food.html">Food</a>
-  <a href="culture.html">Culture</a>
+  <ul>
+    <li><a href="food.html">Food</a></li>
+    <li><a href="culture.html">Culture</a></li>
+  </ul>
 </nav>
+<hr />
 
 <form action="form-review.html" method="post">
 <h3>Please fill out this form with your comments about this page!</h3>
   <fieldset>
-    <label>Name:</label>
+    <legend>Comment form</legend>
+    <label>Name:</label><br />
     <input type="text" name="full-name">
     <p>Where are you from?</p>
     <select name="region">
+      <option selected="selected">Select a region</option>
       <option value="n-america">North America</option>
       <option value="s-america">South America</option>
       <option value="Asia">Asia</option>
