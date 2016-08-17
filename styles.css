@@ -1,3 +1,35 @@
-h1 {
+body  {
+  background-color: #A5A5Af;
+  color: white;
+  font-family: Helvetica, sans-serif;
+}
 
+#banner {
+  margin-auto;
+  margin-top: 40px;
+}
+
+#nav-bar {
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+  width: 80%;
+  border-radius: 10px;
+  background-color: #015249;
+  border: white 1px solid;
+}
+
+nav > ul > li {
+  display: inline;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 3px;
+  margin-left: 40px;
+  margin-right: 40px;
+
+}
+
+nav a {
+  text-decoration: none;
+  color: #A5A5Af;
 }
