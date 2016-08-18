@@ -4,32 +4,87 @@ body  {
   font-family: Helvetica, sans-serif;
 }
 
-#banner {
-  margin-auto;
-  margin-top: 40px;
-}
-
 #nav-bar {
   position: fixed;
+  left: 0px;
+  right: 0px;
   top: 0px;
   z-index: 1;
-  width: 80%;
-  border-radius: 10px;
   background-color: #015249;
-  border: white 1px solid;
+  height: 45px;
+  border-bottom: solid white 1px;
 }
 
-nav > ul > li {
+nav li {
   display: inline;
   text-transform: uppercase;
   font-weight: bold;
-  padding: 3px;
-  margin-left: 40px;
-  margin-right: 40px;
-
+  width: 100%;
+  margin: auto;
 }
 
 nav a {
   text-decoration: none;
   color: #A5A5Af;
+  padding: 4px 50px;
+}
+
+li a:hover {
+  color: white;
+  background-color: #777;
+  border-radius: 30px;
+}
+
+li a:active {
+  background-color: pink;
+}
+
+a:visited {
+  color: pink;
+}
+
+#banner {
+  margin-top: 50px;
+}
+
+#banner img {
+  display: inline-block;
+  width: 400px;
+  height: 300px;
+  border-style: inset;
+  border-width: 4px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#banner img:first-child {
+  margin-right: 30px;
+}
+
+h1, h2, h3 {
+  font-family: "Fredoka One", sans-serif;
+  letter-spacing: .07em;
+  color: black;
+}
+
+#intro {
+  padding: 10px;
+
+}
+
+footer {
+  text-align: center;
+}
+
+.description {
+  background-color: #4E78A0;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 15px;
+  border: solid white 1px;
+}
+
+#test {
+  background-image: url("images/view.jpg");
+  background-color: #4E78A0;
 }
