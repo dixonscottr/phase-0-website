@@ -1,18 +1,15 @@
+/*html elements*/
+
 body  {
   background-color: #A5A5Af;
   color: white;
   font-family: Helvetica, sans-serif;
 }
 
-#nav-bar {
-  position: fixed;
-  left: 0px;
-  right: 0px;
-  top: 0px;
-  z-index: 1;
-  background-color: #015249;
-  height: 45px;
-  border-bottom: solid white 1px;
+h1, h2, h3 {
+  font-family: "Fredoka One", sans-serif;
+  letter-spacing: .07em;
+  color: black;
 }
 
 nav li {
@@ -29,18 +26,31 @@ nav a {
   padding: 4px 50px;
 }
 
-li a:hover {
-  color: white;
-  background-color: #777;
-  border-radius: 30px;
+footer {
+  text-align: center;
 }
 
-li a:active {
-  background-color: pink;
+/*Class selectors*/
+
+.description {
+  background-color: #4E78A0;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 15px;
+  border: solid white 1px;
 }
 
-a:visited {
-  color: pink;
+/*ID selectors*/
+
+#nav-bar {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  z-index: 1;
+  background-color: #015249;
+  height: 45px;
+  border-bottom: solid white 1px;
 }
 
 #banner {
@@ -56,30 +66,36 @@ a:visited {
   box-shadow: 10px 10px 10px #777;
 }
 
-h1, h2, h3 {
-  font-family: "Fredoka One", sans-serif;
-  letter-spacing: .07em;
-  color: black;
-}
-
 #intro {
   padding: 10px;
 
 }
 
-footer {
-  text-align: center;
-}
-
-.description {
-  background-color: #4E78A0;
-  padding: 10px;
-  margin: 10px;
-  border-radius: 15px;
-  border: solid white 1px;
-}
-
 #test {
   background-image: url("images/view.jpg");
   background-color: #4E78A0;
+}
+
+/*Pseudo-selectors*/
+
+li a:hover {
+  color: white;
+  background-color: #777;
+  border-radius: 30px;
+}
+
+li a:active {
+  background-color: pink;
+}
+
+a:visited {
+  color: pink;
+}
+
+/*Media Queries*/
+
+@media screen and (max-width: 630px) {
+  body {
+    font-size: 60%;
+  }
 }
