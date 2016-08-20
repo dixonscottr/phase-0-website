@@ -36,6 +36,8 @@ nav a {
 
 footer {
   text-align: center;
+  padding-top: 10px;
+  font-style: italic;
 }
 
 /*Class selectors*/
