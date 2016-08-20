@@ -48,6 +48,22 @@ footer {
   border: solid white 1px;
 }
 
+.option-menu {
+  text-align: center;
+  padding-left: 0px;
+}
+
+.option-menu a {
+  text-decoration: none;
+  padding: 1em 2em;
+}
+
+.option-menu a:hover {
+  color: white;
+  background-color: #777;
+  border-radius: 30px;
+}
+
 /*ID selectors*/
 
 #nav-bar {
@@ -144,5 +160,12 @@ li a:active {
   }
   #nav-bar {
     height: 30px;
+  }
+}
+
+@media (max-width: 630px) {
+  .option-menu a {
+    display: block;
+    padding: .5em 1em;
   }
 }
