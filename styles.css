@@ -59,8 +59,7 @@ figure img {
 figcaption {
   font-style: italic;
   color: black;
-  padding: 2px;
-  padding-bottom: 5px;
+  padding: 5px;
 }
 
 /*Class selectors*/
