@@ -67,6 +67,10 @@ footer {
   border-radius: 30px;
 }
 
+.topic-titles {
+  padding-left: 10px;
+}
+
 /*ID selectors*/
 
 #nav-bar {
