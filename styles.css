@@ -56,6 +56,7 @@ footer {
 .option-menu a {
   text-decoration: none;
   padding: 1em 2em;
+  display: inline;
 }
 
 .option-menu a:hover {
@@ -135,6 +136,10 @@ footer {
   width: 70vw;
 }
 
+#culture-menu a {
+  padding-left: 1em;
+  padding-right: 1em;
+}
 
 /*Pseudo-selectors*/
 
@@ -163,8 +168,15 @@ li a:active {
   }
 }
 
-@media (max-width: 630px) {
+@media (max-width: 600px) {
   .option-menu a {
+    display: block;
+    padding: .5em 1em;
+  }
+}
+
+@media (max-width: 800px) {
+  #culture-menu a {
     display: block;
     padding: .5em 1em;
   }
