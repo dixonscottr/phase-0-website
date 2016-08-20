@@ -37,7 +37,7 @@ nav a {
 
 footer {
   text-align: center;
-  padding-top: 10px;
+  padding-top: 20px;
   font-style: italic;
 }
 
@@ -127,6 +127,18 @@ button {
   display: inline-block;
   margin-left: 5px;
   margin-right: 5px;
+}
+
+.top-links {
+  text-align: center;
+}
+
+.top-links a {
+  text-decoration: none;
+  background-color: #777;
+  padding: 5px;
+  border-radius: 5px;
+  border-style: outset;
 }
 
 /*ID selectors*/
@@ -227,6 +239,10 @@ input:focus, input:hover, textarea:focus, textarea:hover, button:hover {
 
 button:hover {
   border-radius: 5px
+}
+
+.top-links a:hover {
+  border-style: inset;
 }
 
 /*Media Queries*/
