@@ -4,6 +4,7 @@ body  {
   background-color: #A5A5Af;
   color: white;
   font-family: Helvetica, sans-serif;
+/*  background-image: url(images/kuromame.png);*/
 }
 
 h1, h2, h3 {
@@ -92,9 +93,27 @@ footer {
 
 }
 
-#test {
-  background-image: url("images/view.jpg");
-  background-color: #4E78A0;
+#black-bean-list {
+  list-style-type: none;
+  padding: 0;
+  padding-left: 10px;
+  margin: 0; 
+}
+
+#black-bean-list li {
+/*  margin-bottom: 0.5em;
+  text-indent: 0.1em;
+  list-style: none;
+  list-style-image: url(images/kuromame.png);
+  font-style: italic;*/
+  background-repeat: no-repeat;
+  background-position: left 1px;
+  background-image: url(images/kuromame.png);
+  padding-left: 15px;
+  padding-bottom: 10px;
+  display: block;
+  font-style: italic;
+
 }
 
 /*Pseudo-selectors*/
