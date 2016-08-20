@@ -12,6 +12,10 @@ h1, h2, h3 {
   color: black;
 }
 
+nav ul {
+  padding-left: 0px;
+}
+
 nav li {
   display: inline;
   text-transform: uppercase;
@@ -23,7 +27,10 @@ nav li {
 nav a {
   text-decoration: none;
   color: #A5A5Af;
-  padding: 4px 50px;
+  margin-left: 5px;
+  padding: 6px 6px;
+  border: 0.5px dashed black;
+  border-radius: 30px;
 }
 
 footer {
@@ -49,8 +56,22 @@ footer {
   top: 0px;
   z-index: 1;
   background-color: #015249;
-  height: 45px;
-  border-bottom: solid white 1px;
+  height: 50px;
+  
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+#nav-bar p {
+  display: inline;
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  bottom: 10px;
+  margin: 0px;
+  color: silver;
+  font-family: "Fredoka One", Helvetica, sans-serif;
+  letter-spacing: .07em;
 }
 
 #banner {
@@ -78,6 +99,10 @@ footer {
 
 /*Pseudo-selectors*/
 
+a:visited {
+  color: pink;
+}
+
 li a:hover {
   color: white;
   background-color: #777;
@@ -88,14 +113,13 @@ li a:active {
   background-color: pink;
 }
 
-a:visited {
-  color: pink;
-}
-
 /*Media Queries*/
 
-@media screen and (max-width: 630px) {
+@media (max-width: 630px) {
   body {
     font-size: 60%;
+  }
+  #nav-bar {
+    height: 30px;
   }
 }
