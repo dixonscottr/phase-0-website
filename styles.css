@@ -100,11 +100,6 @@ footer {
 }
 
 #black-bean-list li {
-/*  margin-bottom: 0.5em;
-  text-indent: 0.1em;
-  list-style: none;
-  list-style-image: url(images/kuromame.png);
-  font-style: italic;*/
   background-repeat: no-repeat;
   background-position: left 1px;
   background-image: url(images/kuromame.png);
@@ -112,8 +107,18 @@ footer {
   padding-bottom: 10px;
   display: block;
   font-style: italic;
-
 }
+
+#boar-mask {
+  text-align: center;
+}
+
+#boar-mask img {
+  border: 1.5px solid white;
+  border-radius: 10px;
+  width: 70vw;
+}
+
 
 /*Pseudo-selectors*/
 
