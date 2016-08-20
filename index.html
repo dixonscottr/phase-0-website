@@ -3,23 +3,51 @@
 <head>
   
   <title>Sasayama</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
+
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+
+  <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet" />
 
 </head>
 <body>
-<div>
-<img src="images/sasayama-castle.jpg" alt="The rebuilt Grand Hall of Sasayama Castle" title="First built in 1609, Sasayama Castle sits in the middle of the city">
-<img src="images/boar-collage.jpeg" alt="Collage of wild boars in Sasayama" title="Boars, boars, all kinds of boars. Round, orange, stuffed, on building boars">
+
+<div id ="nav-bar">
+
+<nav>
+
+  <ul>
+    <li><a href="#top">Top</a></li>
+    <li><a href="food.html">Food</a></li>
+    <li><a href="culture.html">Culture</a></li>
+  </ul>
+
+</nav>
+
+<p>Sasayama: More than Black Beans</p>
+
 </div>
-<div>
+
+<div id="banner" id="top">
+
+  <img src="images/sasayama-castle.jpg" alt="The rebuilt Grand Hall of Sasayama Castle" title="First built in 1609, Sasayama Castle sits in the middle of the city">
+
+  <img src="images/cookie.jpg" alt="wild boar cookie" title="sugary sweetness in boar shape" />
+
+  <img src="images/boar-vending-machine.jpg" alt="stuffed boars on vending machines">
+
+  <img src="images/manhole-cover.JPG" alt="a decorative manhole cover in Sasayama">
+
+</div>
+
+<div id="intro">
 <h1>Sasayama: more than black beans</h1>
 <p>Located in the heart of Japan's Kansai region, Sasayama is a small city with a big heart and a lot of boars</p>
 </div>
-<hr />
-<div>
+
+<div class="description">
 <h2>What makes Sasayama famous?</h2>
 
-<ul>
+<ul id="black-bean-list">
   <li>Black beans</li>
   <li>Wild boar stew</li>
   <li>The ruins of Sasayama Castle</li>
@@ -28,22 +56,16 @@
   <li>Tamba Tachikui-yaki pottery fired in "mountain-climbing kilns"</li>
   <li>Kicking off the the "Great Heisei-Era Municipal Mergers" in 1999 by merging 4 towns into 1 city</li>
 </ul>
-<h3>Click below to learn more about Sasayama:</h3>
 
-<nav>
-  <ul>
-    <li><a href="food.html">Food</a></li>
-    <li><a href="culture.html">Culture</a></li>
-  </ul>
-</nav>
-<hr />
 </div>
+
 <div>
-<form action="form-review.html" method="post">
+
+<form action="form-review.html" method="">
 <h3>Please fill out this form with your comments about this page!</h3>
   <fieldset>
     <legend>Comment form</legend>
-    <label>Name:</label><br />
+    <label>Name:</label>
     <input type="text" name="full-name">
     <p>Where are you from?</p>
     <select name="region">
@@ -62,19 +84,22 @@
     <input type="radio" name="japan-trip" value="no-and-no-interest" />Nope, no interest :(
     <p>What did you think about this page?</p>
     <textarea name="comments" cols="50" rows="5" placeholder="Comments go here!"></textarea>
+    <button type="submit">Submit</button>
   </fieldset>
-  <button type="submit">Submit</button>
 </form>
 
 <p><strong>Warning</strong>: submit button isn't working at the moment. <a href="form-review.html">Click here</a> to see how it would have worked</p>
 </div>
-<hr />
-<div>
+
+<div class="description">
+
 <h3>For more information:</h3>
 <p>Visit the <a href="http://tourism.sasayama.jp/english/" target="_blank">official tourism website</a> (opens in a new window) by the city of Sasayama for a closer look at Sasayama as well as lots of CSS styling that is much prettier to look at. The navigation bar in particular uses CSS to make it uniform across the pages while changing images in the bar itself. The "font size" buttons seem to switch to Japanese when you click on them, but other than that the page works well.</p>
+
 </div>
-<hr />
-<br />
+
+
 <footer>Website and photos by Scott Dixon, <a href="mailto:dixon.scottr@gmail.com">email me</a> with any questions</footer>
+
 </body>
 </html>

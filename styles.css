@@ -1,3 +1,255 @@
-h1 {
+/*html elements*/
 
+body  {
+  background-color: #A5A5Af;
+  color: white;
+  font-family: Helvetica, sans-serif;
+  padding-top: 60px;
+  padding-left: 5px;
+}
+
+h1, h2, h3 {
+  font-family: "Fredoka One", sans-serif;
+  letter-spacing: .07em;
+  color: black;
+}
+
+nav ul {
+  padding-left: 0px;
+}
+
+nav li {
+  display: inline;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 100%;
+  margin: auto;
+}
+
+nav a {
+  text-decoration: none;
+  color: #A5A5Af;
+  margin-left: 5px;
+  padding: 6px 6px;
+  border: 0.5px dashed black;
+  border-radius: 30px;
+}
+
+footer {
+  text-align: center;
+  padding-top: 10px;
+  font-style: italic;
+}
+
+figure {
+  text-align: center;
+  border: 2px black solid;
+  border-radius: 5px;
+  width: 30vw;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+
+figure img {
+  width: 95%;
+  border: 1px solid white;
+  padding-top: 7px;
+}
+
+figcaption {
+  font-style: italic;
+  color: black;
+  padding: 5px;
+  font-family: "Coming Soon", cursive;
+}
+
+form {
+  padding-left: 5px;
+}
+
+fieldset {
+  border: 1px solid black;
+  width: 400px;
+}
+legend {
+  background-color: #777;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+button {
+  display: block;
+}
+
+/*Class selectors*/
+
+.description {
+  background-color: #4E78A0;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 15px;
+  border: solid white 1px;
+}
+
+.option-menu {
+  text-align: center;
+  padding-left: 0px;
+}
+
+.option-menu a {
+  text-decoration: none;
+  padding: 1em 2em;
+  display: inline;
+}
+
+.option-menu a:hover {
+  color: white;
+  background-color: #777;
+  border-radius: 30px;
+}
+
+.topic-titles {
+  padding-left: 10px;
+}
+
+.double-pic {
+  text-align: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.double-pic figure {
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/*ID selectors*/
+
+#nav-bar {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  z-index: 1;
+  background-color: #015249;
+  height: 50px;
+  
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+#nav-bar p {
+  display: inline;
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  bottom: 10px;
+  margin: 0px;
+  color: silver;
+  font-family: "Fredoka One", Helvetica, sans-serif;
+  letter-spacing: .07em;
+}
+
+#banner {
+  text-align: center;
+}
+
+#banner img {
+  width: 20vw;
+  height: 20vw;
+  margin: auto;
+  border-radius: 50%;
+  box-shadow: 10px 10px 10px #777;
+}
+
+#intro {
+  padding: 10px;
+
+}
+
+#black-bean-list {
+  list-style-type: none;
+  padding: 0;
+  padding-left: 10px;
+  margin: 0; 
+}
+
+#black-bean-list li {
+  background-repeat: no-repeat;
+  background-position: left 1px;
+  background-image: url(images/kuromame.png);
+  padding-left: 15px;
+  padding-bottom: 10px;
+  display: block;
+  font-style: italic;
+}
+
+#boar-mask {
+  text-align: center;
+}
+
+#boar-mask img {
+  border: 1.5px solid white;
+  border-radius: 10px;
+  width: 50vw;
+}
+
+#culture-menu a {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+/*Pseudo-selectors*/
+
+a:visited {
+  color: pink;
+}
+
+li a:hover {
+  color: white;
+  background-color: #777;
+  border-radius: 30px;
+}
+
+li a:active {
+  background-color: pink;
+}
+
+input:focus, input:hover, textarea:focus, textarea:hover, button:hover {
+  background-color: lightgrey;
+}
+
+button:hover {
+  border-radius: 5px
+}
+
+/*Media Queries*/
+
+@media (max-width: 630px) {
+  body {
+    font-size: 60%;
+  }
+  #nav-bar {
+    height: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .option-menu a {
+    display: block;
+    padding: .5em 1em;
+  }
+}
+
+@media (max-width: 800px) {
+  #culture-menu a {
+    display: block;
+    padding: .5em 1em;
+  }
 }
