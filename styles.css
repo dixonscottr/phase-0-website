@@ -94,6 +94,19 @@ figcaption {
   padding-left: 10px;
 }
 
+.double-pic {
+  text-align: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.double-pic figure {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 /*ID selectors*/
 
 #nav-bar {
