@@ -88,7 +88,7 @@ var player1 = new Player("url('lil-poundcake.jpg')", "Lil' Poundcake", '#player1
 var player2 = new Player("url('bob.jpg')", "Bob", '#player2_strip');
 
 $( document ).ready(function() {
-  $("h1, .game-instructions").sparkle({
+  $("h1, .game-instructions, footer").sparkle({
     color: 'rainbow',
     count: 30,
     overlap: 0,

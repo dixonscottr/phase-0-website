@@ -54,3 +54,11 @@ tr#player2_strip td {
 .track-container {
 
 }
+
+footer {
+  width: 100%;
+  text-align: center;
+  padding-top: 75px;
+  position: fixed;
+  /*font-weight: bold;*/
+}
